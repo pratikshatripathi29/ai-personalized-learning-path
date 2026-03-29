@@ -1,0 +1,38 @@
+npm install
+
+
+Install frontend dependencies:
+npm run client:install
+
+Start MongoDB
+mongod
+Start backend server in terminal 1:
+npm run dev
+Start frontend in terminal 2:
+npm run client:dev
+http://localhost:5173
+
+
+Tech stack used in this project:
+
+MongoDB for database
+Mongoose for MongoDB schema/model handling
+Express.js for backend API
+Node.js for server runtime
+React for frontend UI
+Vite for frontend build/dev server
+CORS for frontend-backend communication
+dotenv for environment variables
+So the main stack is MERN:
+
+M = MongoDB
+E = Express
+R = React
+N = Node.js
+Only required extra packages used:
+
+mongoose
+cors
+dotenv
+vite
+@vitejs/plugin-react
